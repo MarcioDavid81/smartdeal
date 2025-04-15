@@ -36,11 +36,15 @@ export default async function Dashboard() {
     })
 
     return (
-      <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-        <h1>Dashboard</h1>
-        <ProductsList products={products} />
-        <OrdersList orders={orders} />
-        <CustomersList customers={customers} />
+      <div className="flex flex-col w-full min-h-screen bg-gray-50">
+        <div className="min-h-screen  w-full flex bg-gray-50">
+          <main className="flex-1 py-4 px-4 md:px-8 text-gray-800">
+            <h1>Dashboard</h1>
+            <ProductsList products={products} />
+            <OrdersList orders={orders} />
+            <CustomersList customers={customers} />
+          </main>
+        </div>
       </div>
     );
   }

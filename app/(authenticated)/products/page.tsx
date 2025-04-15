@@ -2,6 +2,12 @@ import React from 'react'
 
 export default function Products() {
   return (
-    <div>Products</div>
+    <div className="flex flex-col w-full min-h-screen bg-gray-50">
+        <div className="min-h-screen  w-full flex bg-gray-50">
+          <main className="flex-1 py-4 px-4 md:px-8 text-gray-800">
+            <h1>Products</h1>
+          </main>
+        </div>
+      </div>
   )
 }

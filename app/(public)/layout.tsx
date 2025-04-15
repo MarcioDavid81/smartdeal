@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     template: "Smart Deal - %s",
   },
   keywords: ["gestão de contratos", "gestão de logística", "integração comercial e logística"],
-  description: "O seu sistema de gestão da comercial e logística",
+  description: "O seu sistema de gestão comercial e logística",
   authors: [
     { name: "Marcio David", url: "https://md-webdeveloper.vercel.app" },
   ],
