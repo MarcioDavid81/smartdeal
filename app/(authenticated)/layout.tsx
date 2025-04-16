@@ -4,6 +4,7 @@ import "../globals.css";
 import { ClerkProvider } from "@clerk/nextjs";
 import Sidebar from "./_components/Sidebar";
 import { dark } from "@clerk/themes";
+import { Toaster } from "sonner";
 
 const inter = Inter({
   weight: ["400", "700"],
@@ -46,6 +47,7 @@ export default function RootLayout({
         >
           <Sidebar />
           {children}
+          <Toaster />
         </body>
       </html>
     </ClerkProvider>
